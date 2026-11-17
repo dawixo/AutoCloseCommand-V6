@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "autoclosecommand",
+  "version": "${version}",
+  "name": "AutoCloseCommand",
+  "description": "Closes matching server containers, sends /autoclicker, and optionally repeats /sellall.",
+  "authors": ["Dawixo"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.dawixo.autoclosecommand.AutoCloseCommandClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

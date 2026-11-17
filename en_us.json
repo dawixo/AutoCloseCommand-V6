@@ -1,0 +1,5 @@
+{
+  "key.autoclosecommand.toggle": "Toggle AutoCloseCommand",
+  "key.autoclosecommand.toggle_sellall": "Toggle AutoSell (/sellall)",
+  "key.categories.autoclosecommand.main": "AutoCloseCommand"
+}

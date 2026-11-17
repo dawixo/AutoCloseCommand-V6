@@ -136,6 +136,10 @@ public final class AutoCloseCommandClient implements ClientModInitializer {
         // Mark before closing, so one GUI opening can trigger only once.
         lastHandledScreen = screen;
         containerScreen.onClose();
+
+        // Keep the mouse cursor released after the container closes.
+        client.mouseHandler.releaseMouse();
+
         pendingCommandTicks = 2;
     }
 
